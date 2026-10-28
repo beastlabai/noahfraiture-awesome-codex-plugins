@@ -32,6 +32,7 @@ It is intentionally simple for now, but designed to become a polished, community
 | emet | Grounded web research MCP plugin for Codex with live sources, cited answers, and current-doc lookup; install via `codex plugin marketplace add https://github.com/endgegnerbert-tech/emet`. | <https://github.com/endgegnerbert-tech/emet> |
 | agenttrace | Local-first trace analysis and CI regression gates for Codex and AI coding agent sessions. | <https://github.com/luoyuctl/agenttrace> |
 | codex-patch-overlay | Patched Codex CLI builds carrying community-requested features upstream hasn't merged yet (live TUI reasoning streaming, completion sound, WebP image input, timed CLI queueing). Install by downloading a release binary (macOS arm64 / Linux x86_64-musl, sha256-checksummed) or via the Nix overlay `github:salty-flower/codex-patch-overlay/latest-release`. | <https://github.com/salty-flower/codex-patch-overlay> |
+| multi-llm | Native Codex plugin for parallel plan, code, and commit reviews across 19 coding CLIs, with validated findings and automated revision. Install the upstream Codex marketplace plugin, then use `$multi-llm:multi-llm --init` and `$multi-llm:multi-llm --review-plan plans/feature.md --quick`. | <https://github.com/beastlabai/multi-llm-plugin> |
 
 > Note: Add focused plugins, tools, and integrations that improve Codex-oriented workflows.
 
